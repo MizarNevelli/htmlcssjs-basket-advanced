@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Basket</title>
+  </head>
+  <body>
+    <div class="container">
+
+
+
+
+      <div class="input-container margin-horiz-auto">
+        <div class="left-side">
+          <p>Scegli un ID giocatore</p>
+
+
+          <input id="usr-input" class="margin-horiz-auto" type="text" list="players"  >
+          <input id="clear-btn" type="button" name="clear" value="CLEAR">
+        </div>
+
+        <div class="player-wrapper">
+          <h1 class="title margin-horiz-auto">Basket STATS</h1>
+
+          <span id="id"><b>ID:</b> <span class="content"></span></span><br>
+          <span id="points"><b>POINTS:</b> <span class="content"></span></span><br>
+          <span id="bounce"><b>BOUNCE:</b> <span class="content"></span></span><br>
+          <span id="mistake"><b>MISTAKE:</b> <span class="content"></span></span><br>
+          <span id="twoPerc"><b>TWO PERC:</b> <span class="content"></span></span><br>
+          <span id="threePerc"><b>THREE PERC:</b> <span class="content"></span></span><br>
+        </div>
+
+        <datalist id="players" class="">
+
+        </datalist>
+      </div>
+    </div>
+  </body>
+</html>
