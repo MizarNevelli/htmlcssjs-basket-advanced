@@ -54,11 +54,22 @@ body{
   opacity: 0.6;
   padding: 20px;
   margin: 0;
+  flex-wrap: wrap;
 }
+.content{color: red;}
 
 #clear-btn{
   border-radius: 20px;
   padding: 10px;
   margin: 20px;
   outline: none;
+  
+}
+#clear-btn:hover{
+  border-color: white;
+  background: blue;
+  opacity: 0.3;
+  color: white;
+  transform: scale(1.3);
+
 }
